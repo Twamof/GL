@@ -40,7 +40,11 @@ export default function Footer() {
             </div>
 
             <div className="border-t border-gray-800 mt-20 pt-8 text-center text-xs text-gray-500 uppercase tracking-widest">
-                &copy; {new Date().getFullYear()} Glim Beauty. All rights reserved.
+                <div>&copy; {new Date().getFullYear()} Glim Beauty. All rights reserved.</div>
+                <div className="mt-4 lowercase">
+                    Site conçu et développé par{" "}
+                    <a href="https://vertex-digital-digital.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors underline underline-offset-4 decoration-accent/50 uppercase font-semibold">VERTEX DIGITAL</a>
+                </div>
             </div>
         </footer>
     );
